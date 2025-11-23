@@ -1,6 +1,27 @@
-TeraTerm is a Fine SSH Client for general professional use.  The main weakness is lacking the abiliy to save your sessions as you go.  There is a Very lame "menu" companion app that I was never able to get working so
-I decided to create my own session manager. It is somewhat limited in that it only works for SSH sessions, but that is all I needed.   I may eventually post the source code if someone insists they need it
-to include telnet.
-This manager was written using PureBasic ver 5.40 specifically to work with TeraTerm v5.5 and I don't anticipate I will provide any updates here when TT releases any subsequent updates.
-Password feature only keeps the pswd for you in each respective session.  The pasasword is posted to your clipboard when you click [Connect].  Best I could do since Tera Term does not allow credentials to be passed to the client for auto-login.  I recently added a checkbox that allows the user to disable the clipboard option.  If you're like me, you find it nearly impossible to locate any download link for anything anywhere on GitHub so here is the URL for direct download from gitHub:
-https://github.com/Randywfl/TeraTerm-SSH2-Session-Manager/raw/refs/heads/main/SSHTTSM(2.7)x64.exe
+TeraTerm is a Very Fine SSH Client for general professional use.  The main weakness is lacking the abiliy to save your sessions as you go.  There is a Very lame "menu" companion app that I was never able to get working so I decided to create my own session manager. It is somewhat limited in that it only works for SSH2 sessions, but that is all I needed.
+
+SSH TeraTerm Session Manager (SSHTTSM)
+Description:
+SSHTTSM is a free, lightweight session manager for Tera Term. It simplifies SSH connections by storing your session details — including IP, port, username, and password — for quick one-click access. Supports auto-login, password visibility toggle, and rotating backups of your session list.
+
+Features:
+Save and manage multiple SSH sessions
+Auto-login with stored username and password
+Password visibility toggle for convenience
+Ping servers to check connectivity
+Automatic backup rotation: Sessions ? Sessions1 ? Sessions2
+Support for .ttl macro files in your sessions folder
+Fully compatible with the free Tera Term client
+
+Requirements:
+Tera Term installed (free, open-source)
+Windows OS
+
+Getting Started:
+Install Tera Term and SSHTTSM.
+Launch SSHTTSM and add a new session with IP, port, username, and password.
+Click Save and then Connect to start your SSH session.
+Optional: select a macro file (.ttl) for automated tasks.
+
+GitHub Repository:
+https://github.com/Randywfl/TeraTerm-SSH2-Session-Manager
