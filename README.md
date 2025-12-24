@@ -2,7 +2,7 @@ TeraTerm is a Very Fine SSH Client for general professional use.  The main weakn
 
 SSH TeraTerm Session Manager (SSHTTSM)
 Description:
-SSHTTSM is a free, lightweight session manager for Tera Term. It simplifies SSH connections by storing your session details — including IP, port, username, and password — for quick one-click access. Supports auto-login, password visibility toggle, and rotating backups of your session list.
+SSHTTSM is a free, lightweight session manager for Tera Term. It simplifies SSH connections by storing your session details — including IP, port, [Optional username, and password] — for quick one-click access. Supports auto-login, password visibility toggle, and rotating backups of your session list.
 
 Features:
 Save and manage multiple SSH sessions
