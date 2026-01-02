@@ -36,7 +36,7 @@ Local portable copies placed in the application folder are also supported.
 
 ## Installation
 
-1. Install **Tera Term** if macro support is required.  
+1. Installing **Tera Term** is required for storaage of sessions file  .  
 2. Copy `3-Way_CSM.exe` to a folder of your choice.  
 3. (Optional) Place `putty.exe` and/or `WinSCP.exe` in the same folder.  
 4. Run the application.
