@@ -25,7 +25,7 @@ It supports saved sessions, optional credential storage, Tera Term macros, and a
 
 - Windows
 - One or more of the following installed:
-  - **Tera Term**
+  - **Tera Term** (mandatory)
   - **PuTTY**
   - **WinSCP**
 
