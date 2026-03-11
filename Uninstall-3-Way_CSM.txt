@@ -7,6 +7,6 @@ If you wish to remove 3-Way_CSM From your computer.
  a. Delete every file that begins with the name sessions.
  b. Delete every file that ends with .ttl 
 
-2. Open Explorer and browse to where your 3-Way_CSM folder resides. Highlight that folder, Hold the shift key and press delete. Can't. Confirm you want to permanently remove 3-Way_CSM from your computer.  There were no registry entries on your computer So you have now. Removed every trace of 3-Way_CSM from your computer.
+2. Open Explorer and browse to where your 3-Way_CSM folder resides. Highlight that folder, Hold the shift key and press delete. Confirm you want to permanently remove 3-Way_CSM from your computer.  There were no registry entries on your computer so you have now removed every trace of 3-Way_CSM from your computer.
 
-3. TeraTerm was installed to your Program Files directory. If you do not want it anymore, It does have its own uninstallers, so you can uninstall TeraTerm In the traditional fashion. I recommend. Using "Revo uninstaller" to get the best cleanup possible.
+3. TeraTerm was installed to your Program Files directory. If you do not want it anymore, It does have its own uninstallers, so you should uninstall TeraTerm In the traditional fashion. I recommend. Using "Revo uninstaller" to get the best cleanup possible.
