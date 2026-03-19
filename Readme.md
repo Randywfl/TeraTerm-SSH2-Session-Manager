@@ -1,3 +1,8 @@
+TeraTerm is a Very Fine SSH Client for general professional use. The main weakness is lacking the abiliy to save your sessions as you go. There is a Very lame "menu" companion app that I was never able to get working so I decided to create my own session manager. It is somewhat limited in that it only works for SSH2 sessions, but that is all I needed.
+
+SSHTTSM On Steroids  is the new...
+
+
 # 3-Way Client Session Manager
 
 **3-Way Client Session Manager** is a Windows utility for managing and launching SSH/SFTP sessions using **Tera Term**, **PuTTY**, or **WinSCP** from a single interface.  
