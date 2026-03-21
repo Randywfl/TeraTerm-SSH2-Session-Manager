@@ -2,7 +2,6 @@ TeraTerm is a Very Fine SSH Client for general professional use. The main weakne
 
 SSHTTSM On Steroids
 
-
 # 3-Way Client Session Manager
 
 **3-Way Client Session Manager** is a Windows utility for managing and launching SSH/SFTP sessions using **Tera Term**, **PuTTY**, or **WinSCP** from a single interface.  
@@ -34,7 +33,7 @@ It supports saved sessions, optional credential storage, Tera Term macros, and a
 
 - 50MB RAM (minimum)
 
-- Internet connecion
+- Internet connection
 
 - keyboard
 
@@ -60,7 +59,7 @@ I suggest using the Full package “TT+3-Way\_CSMinstallerX64.exe“ as the simp
 
 1. Installing **Tera Term** is required for storage of sessions file .
 
-2. Copy `3-Way\\\_CSM.exe` to a folder of your choice.
+2. Copy `3-Way\\\\\\\\\\\\\\\_CSM.exe` to a folder of your choice.
 
 3. (Optional) Place `putty.exe` and/or `WinSCP.exe` into the same folder.
 
@@ -148,6 +147,10 @@ Sessions appear in the list on the left.
 
 > Restart the application for newly added macros to appear in the main window.
 
+## Session Logging & File Transfers
+
+> A dedicated **[C:\\XferTemp**](file:///C:/XferTemp) folder is used to manage zmodem file transfers.  Session log files are also written to this same folder.
+
 ## Session Storage & Backups
 
 Sessions are stored in a rotating backup system:
@@ -174,7 +177,7 @@ Sessions are stored in a rotating backup system:
 
 - **Delete** – Remove selected session
 
-- **Ctrl+C** – Copy `IP:Port` to clipboard (cursor must be inside addressx field)
+- **Ctrl+C** – Copy `IP:Port` to clipboard (cursor must be inside ADDRESS field)
 
 - **ESC** – Close dialogs or editors
 
@@ -182,7 +185,7 @@ Sessions are stored in a rotating backup system:
 
 Click **PING** to verify:
 
-- Server reachability
+- Server reach-ability
 
 - Active internet connection
 
