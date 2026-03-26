@@ -51,15 +51,15 @@ It supports saved sessions, optional credential storage, Tera Term macros, and a
 
 NOTE:  The “TT+3-Way\_CSMinstallerX64.exe” Provides all 3 clients as well as the client manager.  
 3-Way\_CSM automatically searches common install paths for preinstalled clients.  
-Local portable copies of PuTTY and Win SCP may be placed in the application folder will also supported.
+Local portable copies of PuTTY and Win SCP placed in the application folder will also be supported.
 
 ## Installation
 
 I suggest using the Full package “TT+3-Way\_CSMinstallerX64.exe“ as the simplest method.  Otherwise...
 
-1. Installing **Tera Term** is required for storage of sessions file .
+1. Installing **Tera Term** is required for storage of the sessions and optional Macro files.
 
-2. Copy `3-Way\\\\\\\\\\\\\\\_CSM.exe` to a folder of your choice.
+2. Copy `3-Way\_CSM.exe` to a folder of your choice.
 
 3. (Optional) Place `putty.exe` and/or `WinSCP.exe` into the same folder.
 
@@ -69,7 +69,7 @@ I suggest using the Full package “TT+3-Way\_CSMinstallerX64.exe“ as the simp
 
 ## Creating a Session
 
-1. Enter:
+1. Enter the:
 
    - **Session Name**
 
@@ -77,9 +77,9 @@ I suggest using the Full package “TT+3-Way\_CSMinstallerX64.exe“ as the simp
 
    - **Port** (default: 22)
 
-2. (Optional) Enter **Username** and **Password**
+2. (Optional) Enter a **Username** and **Password**
 
-3. Enable **User/Pswd OK** to allow credentials to be saved
+3. (Optional) Enable **User/Pswd OK** to allow credentials to be saved
 
 4. Click **SAVE Session**
 
@@ -93,7 +93,7 @@ Sessions appear in the list on the left.
 
      - Select Macro if desired
 
-     - (preferred macro will be auto selected if filename begins with exclamation)
+     - (preferred macro will be auto selected if filename begins with exclamation point)
 
    - **PuTTY**
 
@@ -103,11 +103,11 @@ Sessions appear in the list on the left.
 
 3. Click **CONNECT** or press **Enter**
 
-### Client Notes
-
-- **PuTTY**
+### Client Selection:
 
 - **Tera Term**
+
+- **PuTTY**
 
 - **WinSCP**
 
@@ -117,11 +117,11 @@ Sessions appear in the list on the left.
 
 - Passwords are stored in an **obfuscated, non-readable form**
 
-- To save credentials:
+- To save credentials (New or existing Sessions):
 
-  1. Enter **Username** and **Password** (optional)
+  1. Enter (optional) **Username** and **Password**
 
-  2. Enable **User/Pswd OK**
+  2. Enable **User/Pswd OK (to allow saving)**
 
   3. Click **SAVE Session**
 
@@ -135,21 +135,23 @@ Sessions appear in the list on the left.
 
 - Select a macro before connecting to execute it automatically
 
+- Macro filename beginning with exclamation point will be selected automatically as default.
+
 ### Macro Editor
 
 - Select macro file if available
 
-- Click **EDIT**
-
-- Edit the existing macro or create a new one
+- Click \[\*\*EDIT\] \*\*for the existing macro or to create a new one
 
 - Save or reload macro directly from the built-in editor
 
-> Restart the application for newly added macros to appear in the main window.
+- Remrember – Limit of **8 macros** are displayed in the main window
+
+> Restart the application for newly added macros to appear in the main window. You might need to delete one to allow your new macro to become available in pick list.
 
 ## Session Logging & File Transfers
 
-> A dedicated **[C:\\XferTemp**](file:///C:/XferTemp) folder is used to manage zmodem file transfers.  Session log files are also written to this same folder.
+> A dedicated \*\*[C:\\XferTemp\*\*](file:///C:/XferTemp) folder is used to manage zmodem file transfers.  Session log files are also written to this same folder.
 
 ## Session Storage & Backups
 
@@ -160,13 +162,8 @@ Sessions are stored in a rotating backup system:
 | `Sessions` | Active sessions file |
 | `Sessions1` | Most recent backup |
 | `Sessions2` | Older backup |
-
-
-|  | Not Rotated |
-| :-: | :-: |
+| **File Name** | **Not Rotated** |
 | `SessionsBak` | Very first Backup |
-|  |  |
-|  |  |
 
 
 > Each save operation rotates the files 0 1 2 automatically.
@@ -217,6 +214,8 @@ License, documents, and homepage links are accessible from the **About** window.
 ## Disclaimer
 
 Provided **AS-IS**, without warranty of any kind.
+
+
 
 Enjoy using **3-Way Client Session Manager**
 
