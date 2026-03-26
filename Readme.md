@@ -49,17 +49,17 @@ It supports saved sessions, optional credential storage, Tera Term macros, and a
 
   - **WinSCP**
 
-NOTE:  The “TT+3-Way\_CSMinstallerX64.exe” Provides all 3 clients as well as the client manager.  
-3-Way\_CSM automatically searches common install paths for preinstalled clients.  
+NOTE:  The “TT+3-Way_CSMinstallerX64.exe” Provides all 3 clients as well as the client manager.  
+3-Way_CSM automatically searches common install paths for preinstalled clients.  
 Local portable copies of PuTTY and Win SCP placed in the application folder will also be supported.
 
 ## Installation
 
-I suggest using the Full package “TT+3-Way\_CSMinstallerX64.exe“ as the simplest method.  Otherwise...
+I suggest using the Full package “TT+3-Way_CSMinstallerX64.exe“ as the simplest method.  Otherwise...
 
 1. Installing **Tera Term** is required for storage of the sessions and optional Macro files.
 
-2. Copy `3-Way\_CSM.exe` to a folder of your choice.
+2. Copy `3-Way_CSM.exe` to a folder of your choice.
 
 3. (Optional) Place `putty.exe` and/or `WinSCP.exe` into the same folder.
 
@@ -146,7 +146,7 @@ Sessions appear in the list on the left.
 - Save or reload macro directly from the built-in editor
 
 - Remrember – Limit of **8 macros** are displayed in the main window
-
+I.
 > Restart the application for newly added macros to appear in the main window. You might need to delete one to allow your new macro to become available in pick list.
 
 ## Session Logging & File Transfers
@@ -218,4 +218,3 @@ Provided **AS-IS**, without warranty of any kind.
 
 
 Enjoy using **3-Way Client Session Manager**
-
