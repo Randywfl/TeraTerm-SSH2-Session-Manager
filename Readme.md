@@ -209,7 +209,7 @@ Balloon Tips are helpful to Beginners and can become annoying so you have the op
 
 - Click properties
 
-- Append the target line with a space followed by backslash and the word “quiet”, as shown below:
+- Append the target line with a space followed by a slash and the word “quiet”, as shown below:
 
 ![3-Way CSM Properties](images/Properties.png) ![3-Way CSM quiet](images/Quiet.png)
 
