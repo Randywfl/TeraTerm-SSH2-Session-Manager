@@ -9,6 +9,7 @@ It supports saved sessions, optional credential storage, Tera Term macros, and a
 
 ![3-Way CSM screenshot](images/3-Way_CSMwindow.png)
 
+
 ## Features
 
 - Centralized SSH session list
@@ -61,7 +62,7 @@ I suggest using the Full package “TT+3-Way\_CSMinstallerX64.exe“ as the simp
 
 1. Installing **Tera Term** is required for storage of the sessions and optional Macro files.
 
-2. Copy `3-Way\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_CSM.exe` to a folder of your choice.
+2. Copy `3-Way\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_CSM.exe` to a folder of your choice.
 
 3. (Optional) Place `putty.exe` and/or `WinSCP.exe` into the same folder.
 
@@ -211,7 +212,6 @@ Balloon Tips are helpful to Beginners and can become annoying so you have the op
 - Append the target line with a space followed be backslash  and the word “quiet”, as shown below:
 
 ![3-Way CSM Properties](images/Properties.png) ![3-Way CSM quiet](images/Quiet.png)
-
 
 ## About & Licensing
 
