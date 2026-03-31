@@ -232,3 +232,5 @@ Provided **AS-IS**, without warranty of any kind.
 
 Enjoy using **3-Way Client Session Manager**
 
+Download link:
+https://github.com/Randywfl/TeraTerm-SSH2-Session-Manager/raw/refs/heads/main/TT+3-Way_CSMinstallerX64.exe
