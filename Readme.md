@@ -158,3 +158,7 @@
   Provided **AS-IS**, without warranty of any kind.
   
   Enjoy using **3-Way Client Session Manager**
+  
+  ## LATER Direct Download link
+  installs TeraTerm & 3-way_SCM PLUS portable copies of PuTTY & WinSCP
+  https://github.com/Randywfl/TeraTerm-SSH2-Session-Manager/raw/refs/heads/main/TT+3-Way_CSMinstallerX64-1.exe
